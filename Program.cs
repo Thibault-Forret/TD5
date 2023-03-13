@@ -4,5 +4,7 @@ int RenvoieCarre(int i) {
 	return i*i;
 }
 
-int resultat = RenvoieCarre(5);
+int nbrSaisi = Convert.ToInt32(Console.ReadLine());
+
+int resultat = RenvoieCarre(nbrSaisi);
 Console.WriteLine(resultat);
